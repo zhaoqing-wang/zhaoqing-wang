@@ -32,12 +32,12 @@ jobs:
           config_timezone: Asia/Shanghai
           config_twemoji: yes
           extras_css: |
-            /* Header calendar: green → blue (matching header #0366d6) */
+            /* Header calendar: green → blue gradient */
             rect[fill="#ebedf0"] { fill: #ebedf0 !important; }
-            rect[fill="#9be9a8"] { fill: #b6d6ff !important; }
-            rect[fill="#40c463"] { fill: #54aeff !important; }
-            rect[fill="#30a14e"] { fill: #0969da !important; }
-            rect[fill="#216e39"] { fill: #0a3069 !important; }
+            rect[fill="#9be9a8"] { fill: #c8dffe !important; }
+            rect[fill="#40c463"] { fill: #79b8ff !important; }
+            rect[fill="#30a14e"] { fill: #3b8eea !important; }
+            rect[fill="#216e39"] { fill: #1a6dd3 !important; }
             /* 3D isocalendar: green → light grayscale (only path elements) */
             path[fill="#ebedf0"] { fill: #f0f0f0 !important; }
             path[fill="#9be9a8"] { fill: #d4d4d4 !important; }
