@@ -32,12 +32,12 @@ jobs:
           config_timezone: Asia/Shanghai
           config_twemoji: yes
           extras_css: |
-            /* Override green contribution colors to grayscale */
-            rect[fill="#ebedf0"], path[fill="#ebedf0"] { fill: #eaeaea !important; }
-            rect[fill="#9be9a8"], path[fill="#9be9a8"] { fill: #c6c6c6 !important; }
-            rect[fill="#40c463"], path[fill="#40c463"] { fill: #959595 !important; }
-            rect[fill="#30a14e"], path[fill="#30a14e"] { fill: #636363 !important; }
-            rect[fill="#216e39"], path[fill="#216e39"] { fill: #333333 !important; }
+            /* 3D isocalendar: green → light grayscale (only path elements) */
+            path[fill="#ebedf0"] { fill: #f0f0f0 !important; }
+            path[fill="#9be9a8"] { fill: #d4d4d4 !important; }
+            path[fill="#40c463"] { fill: #b0b0b0 !important; }
+            path[fill="#30a14e"] { fill: #8a8a8a !important; }
+            path[fill="#216e39"] { fill: #636363 !important; }
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
           plugin_languages: yes
