@@ -33,11 +33,11 @@ jobs:
           config_twemoji: yes
           extras_css: |
             /* Header calendar: smooth blue ramp from low to high */
-            rect[fill="#ebedf0"] { fill: #79b8ff !important; }
-            rect[fill="#9be9a8"] { fill: #61a5f4 !important; }
-            rect[fill="#40c463"] { fill: #4a92e9 !important; }
-            rect[fill="#30a14e"] { fill: #327fde !important; }
-            rect[fill="#216e39"] { fill: #1a6dd3 !important; }
+            rect[fill="#ebedf0"] { fill: #198ce7 !important; }
+            rect[fill="#9be9a8"] { fill: #1483e3 !important; }
+            rect[fill="#40c463"] { fill: #0e79df !important; }
+            rect[fill="#30a14e"] { fill: #0970da !important; }
+            rect[fill="#216e39"] { fill: #0366d6 !important; }
             /* 3D isocalendar: green → light grayscale (only path elements) */
             path[fill="#ebedf0"] { fill: #f0f0f0 !important; }
             path[fill="#9be9a8"] { fill: #d4d4d4 !important; }
