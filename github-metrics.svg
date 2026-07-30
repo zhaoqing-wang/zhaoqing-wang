@@ -54,7 +54,7 @@ path[fill="#216e39"] { fill: #636363 !important; }</style>
                                     <rect class="day" x="150" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
                                     <rect class="day" x="165" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="180" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="195" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
+                                    <rect class="day" x="195" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
                                 </g>
                             </svg>
                         </div>
@@ -148,9 +148,9 @@ path[fill="#216e39"] { fill: #636363 !important; }</style>
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="339.69982198806554" height="8" fill="#198CE7"/>
-                    <rect mask="url(#languages-bar)" x="339.69982198806554" y="0" width="118.64324344797231" height="8" fill="#3572A5"/>
-                    <rect mask="url(#languages-bar)" x="458.3430654360378" y="0" width="1.6569345639621826" height="8" fill="#384d54"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="339.70217867712165" height="8" fill="#198CE7"/>
+                    <rect mask="url(#languages-bar)" x="339.70217867712165" y="0" width="118.64091921838228" height="8" fill="#3572A5"/>
+                    <rect mask="url(#languages-bar)" x="458.34309789550394" y="0" width="1.6569021044960521" height="8" fill="#384d54"/>
                 </svg>
                 <div class="field center horizontal-wrap fill-width">
                     <div class="field center no-wrap language">
@@ -1227,7 +1227,7 @@ path[fill="#216e39"] { fill: #636363 !important; }</style>
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 30 Jul 2026, 13:02:29 (timezone Europe/Stockholm) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 31 Jul 2026, 00:08:27 (timezone Europe/Stockholm) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
