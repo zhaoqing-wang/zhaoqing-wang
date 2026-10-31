@@ -8,7 +8,37 @@ rect[fill="#ebedf0"] { fill: #198ce7 !important; }
 rect[fill="#9be9a8"] { fill: #1483e3 !important; }
 rect[fill="#40c463"] { fill: #0e79df !important; }
 rect[fill="#30a14e"] { fill: #0970da !important; }
-rect[fill="#216e39"] { fill: #0366d6 !important; }</style>
+rect[fill="#216e39"] { fill: #0366d6 !important; }
+
+/* 3D isocalendar: disable rainbow animation on these paths */
+path[fill="#ebedf0"],
+path[fill="#9be9a8"],
+path[fill="#40c463"],
+path[fill="#30a14e"],
+path[fill="#216e39"] {
+ animation: none !important;
+}
+
+/* 3D isocalendar: top face (no filter) */
+path[fill="#ebedf0"]:not([filter]) { fill: #f0f0f0 !important; }
+path[fill="#9be9a8"]:not([filter]) { fill: #d4d4d4 !important; }
+path[fill="#40c463"]:not([filter]) { fill: #b0b0b0 !important; }
+path[fill="#30a14e"]:not([filter]) { fill: #8a8a8a !important; }
+path[fill="#216e39"]:not([filter]) { fill: #636363 !important; }
+
+/* 3D isocalendar: left face, original brightness1 — disable filter */
+path[fill="#ebedf0"][filter="url(#brightness1)"] { fill: #d9d9d9 !important; filter: none !important; }
+path[fill="#9be9a8"][filter="url(#brightness1)"] { fill: #bcbcbc !important; filter: none !important; }
+path[fill="#40c463"][filter="url(#brightness1)"] { fill: #9a9a9a !important; filter: none !important; }
+path[fill="#30a14e"][filter="url(#brightness1)"] { fill: #767676 !important; filter: none !important; }
+path[fill="#216e39"][filter="url(#brightness1)"] { fill: #525252 !important; filter: none !important; }
+
+/* 3D isocalendar: right face, original brightness2 — disable filter */
+path[fill="#ebedf0"][filter="url(#brightness2)"] { fill: #c2c2c2 !important; filter: none !important; }
+path[fill="#9be9a8"][filter="url(#brightness2)"] { fill: #a4a4a4 !important; filter: none !important; }
+path[fill="#40c463"][filter="url(#brightness2)"] { fill: #828282 !important; filter: none !important; }
+path[fill="#30a14e"][filter="url(#brightness2)"] { fill: #5e5e5e !important; filter: none !important; }
+path[fill="#216e39"][filter="url(#brightness2)"] { fill: #3a3a3a !important; filter: none !important; }</style>
     <foreignObject x="0" y="0" width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" class="items-wrapper">
             <section>
@@ -1188,7 +1218,7 @@ rect[fill="#216e39"] { fill: #0366d6 !important; }</style>
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 31 Oct 2026, 15:39:27 (timezone Asia/Shanghai) with lowlighter/metrics@3.34.0-beta</span>
+                <span>Last updated 31 Oct 2026, 15:45:29 (timezone Asia/Shanghai) with lowlighter/metrics@3.34.0-beta</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
